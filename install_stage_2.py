@@ -1,7 +1,7 @@
 import os
 
 def append_file(name, append_data):
-    with open(n1ame, "a+") as f:
+    with open(name, "a+") as f:
         f.seek(0)
         data = f.read(100)
 
