@@ -79,7 +79,7 @@ def finalize():
 
 if (InternetCheck() != 1):
     print("Installation Failed: You're not connected to internet!")
-    return
+    quit()
 
 keymap = input("Enter your keymap: ")
 os.system("loadkeys " + keymap)
